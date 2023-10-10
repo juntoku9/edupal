@@ -66,22 +66,7 @@ if(Firebase.apps.isEmpty){
     final FirebasePerformance performance = FirebasePerformance.instance;
     await performance.setPerformanceCollectionEnabled(true);
 
-  // final metric = FirebasePerformance.instance
-  //     .newHttpMetric("https://www.google.com", HttpMethod.Get);
-
-  // await metric.start();
-  // final response = await http.get(Uri.parse("https://www.google.com/"));
-
-  //   // Set the response information
-  //   metric
-  //     ..httpResponseCode = response.statusCode
-  //     ..responsePayloadSize = response.contentLength
-  //     ..responseContentType = response.headers['content-type'];
-
-  // await metric.stop();
-
   await dotenv.load(fileName: '.env');
-  print(dotenv.env['BACKEND_ADDRESS']);
   // runApp(const MyApp());
   runApp(
     MultiProvider(
@@ -93,7 +78,6 @@ if(Firebase.apps.isEmpty){
     ),
   );
 }
-
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
@@ -130,21 +114,6 @@ class _MyAppState extends State<MyApp> {
       initialRoute: '/',
       routes: {
         '/': (context) => LoginPage(),
-        // '/home': (context) => MyHomePage(selectedIndex: selectedIndex),
-        // '/community': (context) => CommunityPage(selectedIndex: selectedIndex),
-        // '/journal': (context) => JournalPage(selectedIndex: selectedIndex),
-        // '/verify-email': (context) => EmailVerificationScreen(
-        //                               // actionCodeSettings: ActionCodeSettings(...),
-        //                               actions: [
-        //                                 EmailVerifiedAction(() {
-        //                                   Navigator.pushReplacementNamed(context, '/profile');
-        //                                 }),
-        //                                 AuthCancelledAction((context) {
-        //                                   FirebaseUIAuth.signOut(context: context);
-        //                                   Navigator.pushReplacementNamed(context, '/');
-        //                                 }),
-        //                               ],
-        //                             ),
       },
       localizationsDelegates: [
         AppLocalizations.delegate, // Add this line
