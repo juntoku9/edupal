@@ -1,0 +1,24 @@
+{
+  "interpretMyDream": "解读我的梦",
+  "shareToCommunity": "分享至社区",
+  "homePageTitle": "我的梦有什么含义",
+  "freud": "弗洛伊德",
+  "zhouGong": "周公解梦",
+  "scientific": "科学",
+
+  "interpreted": "已解读",
+  "dreams": "梦",
+
+  "recent": "最新",
+  "popular": "精选",
+
+  "journal": "梦的日记",
+  "name": "名字", 
+  "joinedAt": "加入日期", 
+  "dreamCount": "解梦数量", 
+  "deleteMyAccount": "删除账户", 
+  "logout": "登出",
+  "login": "登录",
+  "welcomeQuote": "我畅想我的画作，我描绘我的梦想-梵高"
+
+}

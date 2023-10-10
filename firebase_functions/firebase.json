@@ -1,0 +1,20 @@
+{
+  "emulators": {
+    "functions": {
+      "host": "0.0.0.0",
+      "port": "5010"
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "venv",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    }
+  ]
+}

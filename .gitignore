@@ -1,0 +1,112 @@
+# Miscellaneous
+*.iml
+*.class
+*.o
+*.so
+*.dylib
+*.swp
+*.bak
+*.bak.*
+*~
+*.swp
+*.un~
+*.bak
+*.bak.*
+*.swp
+*.bak
+Session.vim
+*.bak
+*.swp
+*.tmp
+*.bak
+*.bak.*
+*.swp
+*.bak
+*.bak.*
+*~
+*.bak
+*.swp
+*.bak
+*.bak.*
+*~
+*.bak
+*.swp
+*.bak
+*.bak.*
+*~
+*.bak
+*.swp
+*.bak
+*.bak.*
+*~
+
+# App files
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/flutter_assets
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/flutter_assets
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/flutter_assets
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/flutter_assets
+
+# Pod files
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Runner.xcworkspace
+**/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata
+**/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata
+**/ios/Runner.xcodeproj/xcshareddata
+**/ios/Runner.xcodeproj/xcuserdata
+
+# Build generated files
+**/build/
+
+# Android files
+**/.gradle/
+**/.idea/
+**/local.properties
+
+# macOS files
+**/macos/Podfile.lock
+**/macos/Pods/
+**/macos/Runner.xcworkspace
+**/macos/Flutter/Flutter-Generated.xcconfig
+**/macos/Flutter/ephemeral
+**/macos/.last_build_id
+**/macos/Flutter/flutter_assets
+**/macos/Flutter/Flutter-Generated.xcconfig
+**/macos/Flutter/flutter_export_environment.sh
+
+# Web files
+**/web/favicon.ico
+**/web/icons/Icon-192.png
+**/web/icons/Icon-512.png
+**/web/manifest.json
+**/web/versions.json
+**/web/AssetManifest.json
+**/web/FontManifest.json
+**/web/flutter_service_worker.js
+
+# Package files
+.dart_tool/
+.pub/
+.pub-cache/
+.pubspec.lock
+/packages
+
+# Personal IDE settings
+.vscode/
+.idea/
+venv/
+*.venv/
+.env/
+.env
+
+# Firebase configuration
+firebase_options.dart
+**/GoogleService-Info.plist

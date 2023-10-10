@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "941847190544",
+    "project_id": "edupal-2d64e",
+    "storage_bucket": "edupal-2d64e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941847190544:android:6e59a6adb2b477decf3e95",
+        "android_client_info": {
+          "package_name": "com.blockart.dreamore_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt0IUKQ3wVJwPHSBFeCobNv0l5dnUOUqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

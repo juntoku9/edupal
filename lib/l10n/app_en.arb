@@ -1,0 +1,23 @@
+{
+  "interpretMyDream": "Interpret My Dream",
+  "shareToCommunity": "Share to community", 
+  "homePageTitle": "What is the meaning of my dream",
+  "freud": "Freud", 
+  "zhouGong": "Taoism", 
+  "scientific": "Scientific",
+  "interpreted": "Interpreted",
+  "dreams": "dreams",
+
+  "recent": "Recent",
+  "popular": "Popular",
+
+  "journal": "Journal",
+  "name": "name", 
+  "joinedAt": "joined at", 
+  "dreamCount": "dream count", 
+  "deleteMyAccount": "Delete account", 
+  "logout": "Logout",
+  "login": "Login",
+  "welcomeQuote": "Talk to cute pets and learn anything"
+
+}

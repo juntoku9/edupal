@@ -1,0 +1,4 @@
+{
+    "OPENAI_API_KEY": "your_openai_api_key", 
+    "ELEVE_LABS_API_KEY": "your elevenlabs key"
+}
