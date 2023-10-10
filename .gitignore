@@ -110,3 +110,4 @@ venv/
 # Firebase configuration
 firebase_options.dart
 **/GoogleService-Info.plist
+**/firebase_app_id_file.json
