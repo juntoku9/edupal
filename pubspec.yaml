@@ -55,7 +55,7 @@ dependencies:
   url_launcher: ^6.1.10
   universal_io: ^2.2.0
   async: ^2.10.0
-  firebase_core: ^2.10.0
+  firebase_core: ^2.17.0
   firebase_performance: ^0.9.1+1
   firebase_crashlytics: ^3.1.1
   firebase_auth: ^4.4.2
@@ -76,6 +76,7 @@ dependencies:
   flutter_audio_capture: ^1.1.4
   audioplayers: ^4.1.0
   just_audio: ^0.9.35
+  authing_sdk_v3: ^1.0.1
 
 dev_dependencies:
   flutter_test:

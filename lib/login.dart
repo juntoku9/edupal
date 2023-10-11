@@ -2,9 +2,7 @@ import 'dart:convert';
 
 import 'package:authing_sdk_v3/client.dart';
 import 'package:authing_sdk_v3/result.dart';
-import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:auth0_flutter/auth0_flutter.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'functions/versions.dart';
 import 'homepage.dart';
@@ -20,7 +18,6 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 
 import 'providers/profile_provider.dart';
 import 'functions/message_utils.dart';
-// import 'package:firebase_auth/firebase_auth.dart';
 import 'login_page.dart';
 
 import 'package:firebase_auth/firebase_auth.dart' hide EmailAuthProvider;
@@ -29,22 +26,22 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 // convert user profile to json 
 // todo: potentially dangeraous 
-Map<String, dynamic> userProfileToJson(UserProfile userProfile) {
-  return {
-    'sub': userProfile.sub,
-    'name': userProfile.name,
-    'givenName': userProfile.givenName,
-    'familyName': userProfile.familyName,
-    'middleName': userProfile.middleName,
-    'email': userProfile.email,
-    'profileUrl': userProfile.profileUrl?.toString(),
-    'gender': userProfile.gender,
-    // 'birthdate': userProfile.birthdate,
-    'zoneinfo': userProfile.zoneinfo,
-    'locale': userProfile.locale,
+// Map<String, dynamic> userProfileToJson(UserProfile userProfile) {
+//   return {
+//     'sub': userProfile.sub,
+//     'name': userProfile.name,
+//     'givenName': userProfile.givenName,
+//     'familyName': userProfile.familyName,
+//     'middleName': userProfile.middleName,
+//     'email': userProfile.email,
+//     'profileUrl': userProfile.profileUrl?.toString(),
+//     'gender': userProfile.gender,
+//     // 'birthdate': userProfile.birthdate,
+//     'zoneinfo': userProfile.zoneinfo,
+//     'locale': userProfile.locale,
 
-  };
-}
+//   };
+// }
 class LoginPage extends StatefulWidget {
   @override
   _LoginPageState createState() => _LoginPageState();

@@ -13,7 +13,7 @@ import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 import 'app_header.dart'; // add this line
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:auth0_flutter/auth0_flutter.dart';
+// import 'package:auth0_flutter/auth0_flutter.dart';
 import 'login.dart';
 import 'homepage.dart';
 import 'package:provider/provider.dart';
