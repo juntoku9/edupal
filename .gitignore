@@ -114,3 +114,6 @@ firebase_options.dart
 .firebaserc
 firebase.json
 functions/
+
+# Flutter Plugins
+.flutter-plugins*
