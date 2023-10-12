@@ -24,24 +24,6 @@ import 'package:firebase_auth/firebase_auth.dart' hide EmailAuthProvider;
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-// convert user profile to json 
-// todo: potentially dangeraous 
-// Map<String, dynamic> userProfileToJson(UserProfile userProfile) {
-//   return {
-//     'sub': userProfile.sub,
-//     'name': userProfile.name,
-//     'givenName': userProfile.givenName,
-//     'familyName': userProfile.familyName,
-//     'middleName': userProfile.middleName,
-//     'email': userProfile.email,
-//     'profileUrl': userProfile.profileUrl?.toString(),
-//     'gender': userProfile.gender,
-//     // 'birthdate': userProfile.birthdate,
-//     'zoneinfo': userProfile.zoneinfo,
-//     'locale': userProfile.locale,
-
-//   };
-// }
 class LoginPage extends StatefulWidget {
   @override
   _LoginPageState createState() => _LoginPageState();

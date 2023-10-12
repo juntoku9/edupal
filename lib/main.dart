@@ -13,7 +13,6 @@ import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 import 'app_header.dart'; // add this line
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-// import 'package:auth0_flutter/auth0_flutter.dart';
 import 'login.dart';
 import 'homepage.dart';
 import 'package:provider/provider.dart';
@@ -50,13 +49,11 @@ if(Firebase.apps.isEmpty){
       return true;
     };
 
-    // 653004192812-l0rc5u49a5sq9aapmii02ho6jdhmecpf.apps.googleusercontent.com
     // configure ui auth 
     FirebaseUIAuth.configureProviders([
     firebase_ui_auth.EmailAuthProvider(),
     // PhoneAuthProvider(),
-    // project-941847190544
-    GoogleProvider(clientId: "941847190544-k3pfkt3an49iu1tha9dcq2siji3es9ar.apps.googleusercontent.com"),
+    GoogleProvider(clientId: "INPUT_YOUR_OWN clientId (find in GoogleService-Info.plist)"),
     AppleProvider(),
       // ... other providers
     ]);
