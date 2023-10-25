@@ -136,7 +136,7 @@ Future<String> _prepareSavePath() async {
       });
       if (await record.hasPermission()) {
         // Start recording
-        print("goinhg to start recording...");
+        print("going to start recording...");
         await record.start(
           path: _curFilePath,
           encoder: AudioEncoder.pcm16bit, // by default
