@@ -99,11 +99,11 @@ def parse_text_to_json(text):
 def generate_bot_response(text, all_msgs, character, language="English"):
     ### this is going to sumarize the transcript 
     if character == "Shiba Inu":
-        system_prompt = f""" you are a happy dog chatting with children, you wnat to be engaging and freindly
+        system_prompt = f""" you are a happy dog chatting with children, you want to be engaging and freindly
         you want to keep the child interested and try to have a good conversation
         """
     elif character == "Stray Cat":
-        system_prompt = f""" you are a stray cat on the streets, you wnat to be engaging and freindly
+        system_prompt = f""" you are a stray cat on the streets, you want to be engaging and freindly
         you want to keep the child interested and try to have a good conversation
         """
     else:
@@ -137,7 +137,7 @@ def generate_bot_response(text, all_msgs, character, language="English"):
 def generate_speech(speech_content):
     print("going to generate speech")
     CHUNK_SIZE = 1024
-    url = "https://api.elevenlabs.io/v1/text-to-speech/HirWuF9nGmwnhR7n7766"
+    url = "https://api.elevenlabs.io/v1/text-to-speech/<INPUT_YOUR_OWN>"
 
     headers = {
     "Accept": "audio/mpeg",

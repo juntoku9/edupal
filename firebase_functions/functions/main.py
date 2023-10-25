@@ -71,7 +71,7 @@ def process_speech_input(req: https_fn.Request) -> https_fn.Response:
     save_message_to_firestore({"message": transcript_text, "side": "user", "session_id": session_id, "character": character})
     ### now simply generate a response for the dog 
     past_msgs = fetch_messages(session_id, character)
-    response = generate_bot_response(transcript_text, past_msgs, language)
+    response = generate_bot_response(transcript_text, past_msgs, character, language)
     save_message_to_firestore({"message": response, "side": "bot", "session_id": session_id, "character": character})
     ### it will generate a sentence 
     ## generate the response 
