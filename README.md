@@ -107,7 +107,16 @@ Run
 $ firebase deploy
 ```
 
+#### Set up Firestore Database
+Go to the firesstore database and set up indexes
+
+
 #### Run your app locally
+Run
+```bash
+$ firebase emulators:start # This will help you to start a local version of your project
+```
+
 ```bash
 $ flutter run
 ```
